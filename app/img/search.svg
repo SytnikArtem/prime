@@ -1,0 +1,15 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 82.1 82.1">
+    <defs>
+    <style>
+        .cls-1{fill:none;}
+        .cls-2{clip-path:url(#clip-path);}
+    </style>
+    <clipPath id="clip-path" transform="translate(74) scale(-1, 1)">
+        <path class="cls-1" d="M33,57a24,24,0,1,1,17-7A24,24,0,0,1,33,57Zm38.83,9.17L58.26,52.61a32,32,0,1,0-5.65,5.65L66.17,71.83a4,4,0,1,0,5.66-5.66Z"/>
+    </clipPath>
+    </defs>
+    <title>search</title>
+    <g class="cls-2">
+        <rect width="82.1" height="82.1"/>
+    </g>
+</svg>
