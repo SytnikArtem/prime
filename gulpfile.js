@@ -53,8 +53,10 @@ gulp.task('libs-js', function(){
   return gulp.src([
       'app/libs/slick-carousel/slick/slick.min.js',
       'app/libs/jquery-ui-1.12.1.custom/jquery-ui.js',
-      'app/libs/select2-4.0.6-rc.1/dist/js/select2.min.js'
-
+      'app/libs/select2-4.0.6-rc.1/dist/js/select2.min.js',
+      'app/libs/masonry-layout/dist/masonry.pkgd.min.js',
+      'app/libs/fancybox/dist/jquery.fancybox.min.js',
+      'app/libs/jquery.maskedinput.min.js'
   ])
     .pipe(concat('libs.min.js'))
     .pipe(uglify())

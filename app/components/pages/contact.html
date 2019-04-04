@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>phone</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">-->
+    <meta name="viewport" content="width=360, maximum-scale=1.0"/>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+@import "header.html"
+<div class="contact">
+    <div class="contact-main">
+        <div class="catalog-crumbs">
+            <a href="#" class="catalog-crumbs-link">Главная</a>
+            <a href="#" class="catalog-crumbs-link active">Ламинат</a>
+        </div>
+        <div class="contact-content">
+            <div class="contact-map" id="map"></div>
+            <div class="contact-block">
+                <h4 class="contact-title">Связаться с нами</h4>
+                <div class="contact-flex">
+                    <form action="" class="contact-form">
+                        <input type="text" class="contact-input" placeholder="Ваше Имя" required>
+                        <input type="email" class="contact-input" placeholder="Ваш Email" required>
+                        <textarea class="contact-textarea contact-input" placeholder="Ваше сообщение"></textarea>
+                        <button type="submit" class="contact-btn">Отправить сообщение</button>
+                    </form>
+                    <div class="contact-info">
+                        <p class="contact-info-text">3107 Zaria Overpass Apt. 492</p>
+                        <a href="tel:2243838352" class="contact-info-text contact-info-text_link">224-383-8352</a>
+                        <a href="tel:2243838352" class="contact-info-text contact-info-text_link">224-383-8352</a>
+                        <a href="mailto:madisen_langosh@beaulah.ca" class="contact-info-text contact-info-text_mail">madisen_langosh@beaulah.ca</a>
+                        <p class="contact-info-date">Пн. - Сб. 10:00 - 20:00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@import "footer.html"
+
+<script src="js/jquery.min.js"></script>
+<script src="js/libs.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlAd-i0lx9TWfwCnbhqTsglGrCBpNHW5k"></script>
+<script src="js/common.js"></script>
+<script src="js/map.js"></script>
+
+</body>
+</html>

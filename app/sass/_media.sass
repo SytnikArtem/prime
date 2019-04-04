@@ -20,6 +20,23 @@
       &-item
         height: 16px
         width: 16px
+  .header-input
+    width: 100%
+  .header-phone-container
+    flex-direction: column
+  .contact-form
+    padding-right: 30px
+  .contact-info
+    padding-left: 30px
+  .about-item-block
+    padding: 20px
+  .work-center
+    padding: 0 30px
+  .work-right
+    flex-shrink: 1
+  .right-card-item
+    height: 16px
+    width: 16px
 @media only screen and (max-width : 1400px)
   .header
     &-input
@@ -43,7 +60,7 @@
         top: 0
         left: 0
         padding: 18px 20px
-        z-index: 9
+        z-index: 12
       &-menu
         left: auto
         right: 0
@@ -84,10 +101,11 @@
   .catalog
     .right-card
       width: calc(33.33% - 12px)
+      margin-right: 18px
       &:nth-child(5n + 5)
-        margin-right: 15px
+        margin-right: 18px
       &:nth-child(4n + 4)
-        margin-right: 15px
+        margin-right: 18px
       &:nth-child(3n + 3)
         margin-right: 0
       &-class
@@ -104,10 +122,48 @@
       .footer-menu
         &:last-child
           margin-right: 0
-
+  .header-link
+    margin: 0 10px
+  .contact-flex
+    flex-direction: column
+  .contact-form
+    width: 100%
+    padding-right: 0
+    border: none
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1)
+    padding-bottom: 20px
+    margin-bottom: 20px
+  .contact-info
+    width: 100%
+    padding: 0
+  .about-item
+    flex-direction: column
+  .about-item-img
+    width: 100%
+    height: auto
+    flex-shrink: 0
+  .about-item-block
+    width: 100%
+    height: 100%
+  .view-center
+    margin: -5px 5px 0 20px
+  .view-right
+    width: 360px
+  .view-tabs-key
+    width: 60%
+  .view-tabs-value
+    width: 40%
+  .right-card-class
+    font-size: 13px
+  .right-card-class-span
+    display: none
+  .right-card-add
+    font-size: 13px
+  .right-card-add, .right-card-add-span
+    padding-left: 36px
 @media only screen and (max-width : 1200px)
   .header
-    padding: 20px 0
+    padding: 20px 20px
     &-libra
       background: none
     &-flex
@@ -124,7 +180,7 @@
       background-color: #ffffff
       transition: all 0.3s ease
       transform: translateX(-100px)
-      z-index: 3
+      z-index: 10
       &.active
         opacity: 1
         pointer-events: auto
@@ -201,17 +257,6 @@
         display: none
       &-filter
         display: flex
-    .right-card
-      &-price
-        margin: 19px 0 14px 10px
-      &-class
-        margin: 3px 0 10px 10px
-      &-title
-        margin-left: 10px
-      &-field
-        margin: 0 10px
-      &-down
-        padding: 14px 0 9px
     .slider-choice
       &-flex
         display: none
@@ -222,7 +267,7 @@
       left: 0
       width: 100%
       height: 100%
-      z-index: 9
+      z-index: 12
       max-width: 100%
       padding: 0
       background: #fff
@@ -256,7 +301,51 @@
     &-copyright
       padding-left: 0
       margin-bottom: 12px
-
+  .contact, .about, .compare, .portfolio, .work, .view
+    padding: 0 20px
+  .contact-main, .about-main, .compare-main
+    padding-bottom: 20px
+  .about-top-right
+    padding: 30px
+  .compare-right
+    padding-left: 30px
+  .compare-left
+    padding-right: 30px
+  .portfolio-main
+    padding-bottom: 4px
+  .portfolio-item
+    width: calc(33.33% - 11px)
+  .portfolio-item
+    height: 230px
+  .portfolio-item_big
+    height: calc(460px + 16px)
+  .portfolio-item-title
+    font-size: 18px
+    line-height: 1
+    margin-bottom: 5px
+  .portfolio-item-description
+    font-size: 14px
+  .portfolio-item_work
+    width: 100%
+  .view-right
+    display: none
+    &_mobile
+      display: block
+      width: 100%
+      margin-top: 20px
+  .view-center
+    margin-right: 0
+.right-card
+  &-price
+    margin: 19px 0 14px 10px
+  &-class
+    margin: 3px 0 10px 10px
+  &-title
+    margin-left: 10px
+  &-field
+    margin: 0 10px
+  &-down
+    padding: 14px 0 9px
 @media only screen and (max-width : 993px)
   .home
     &-slider
@@ -337,14 +426,85 @@
   .footer
     &-container:last-child
       display: none
+  .compare-left
+    width: 220px
+    padding-right: 20px
+    border: none
+    position: absolute
+    top: 0
+    left: 0
+    z-index: 3
+    pointer-events: none
+    background: #ffffff
+  .compare-flex
+    display: flex
+    position: relative
+    margin-top: 70px
+  .compare-right
+    width: 100%
+    padding-left: 0
+  .compare-right-slider
+    width: calc(100% + 20px)
+    display: flex
+    overflow: auto
+  .compare-right-slide
+    flex-shrink: 0
+  .compare-right-slide:first-child
+    margin-left: 220px
+  .compare-left-tabs
+    position: absolute
+    margin: 0
+    width: calc(100vw - 40px)
+    pointer-events: auto
+    top: -65px
+  .compare-left-list
+    padding-top: 125px
+  .compare-left-tab
+    padding: 15px 0
+  .portfolio-item
+    width: calc(50% - 8px)
+  .work-content
+    flex-wrap: wrap
+  .work-right
+    width: 100%
+    display: flex
+    justify-content: flex-start
+    margin-top: 40px
+  .portfolio-item_work
+    width: calc(33.33% - 12px)
+    margin-right: 16px
+    &:nth-child(3n + 3)
+      margin-right: 0
+  .work-main
+    padding-bottom: 4px
+  .work-left
+    width: 40%
+  .work-center
+    width: 60%
+  .view-third
+    padding: 20px 0
+  .slider-choice
+    display: none
+  .right-card-class-span
+    display: none
+  .view-second-title
+    font-size: 24px
+    padding-bottom: 20px
+  .view-second .slick-dots
+    top: calc(100% + 7px)
+    text-align: left
+    padding: 0 5px
+  .view-second-slider
+    margin-bottom: 20px!important
 @media only screen and (max-width : 730px)
   .catalog
     .right-card
-      width: calc(50% - 12px)
+      width: calc(50% - 8px)
+      margin-right: 16px
+      &:nth-child(3n + 3)
+        margin-right: 16px
       &:nth-child(5n + 5)
-        margin-right: 20px
-      &:nth-child(4n + 4)
-        margin-right: 20px
+        margin-right: 16px
       &:nth-child(2n + 2)
         margin-right: 0
       &-add
@@ -359,6 +519,208 @@
     width: 146px
   .select
     width: 150px
-
-
-
+  .contact-content
+    flex-direction: column
+  .contact-map
+    width: 100%
+    height: 360px
+  .contact-block
+    width: 100%
+  .contact, .about
+    padding: 0
+  .contact-main, .about-main
+    border: none
+    padding: 0
+  .contact-title
+    font-size: 24px
+  .contact-block
+    padding: 25px 20px 20px 20px
+  .contact-flex
+    margin-top: 20px
+  .contact-textarea
+    height: 270px
+  .contact-btn
+    margin-top: 5px
+    width: 100%
+  .about-top
+    flex-direction: column
+  .about-top-left
+    width: 100%
+    height: 240px
+  .about-top-right
+    width: 100%
+    padding: 15px 20px 20px
+  .about-top-title
+    font-size: 24px
+    margin-bottom: 10px
+  .about-row
+    padding: 20px
+  .about-item
+    width: 100%
+    margin-right: 0
+    margin-top: 10px
+    &:first-child
+      margin-top: 0
+  .about-item-name
+    font-size: 20px
+    margin-bottom: 7px
+  .about-item-block
+    padding: 15px 20px 20px
+  .compare-title
+    font-size: 24px
+  .portfolio-item
+    width: 100%
+  .portfolio-item-content
+    padding: 20px
+  .portfolio-item_big
+    height: 230px
+  .portfolio-tabs-link
+    padding: 15px 0
+  .work-left-item
+    height: 40vw
+    min-height: 240px
+    margin-bottom: 0
+  .work-left
+    width: calc(100% + 40px)
+    margin-left: -20px
+    .slick-dots
+      text-align: center
+      border-right: 20px
+    .slick-dots li
+      margin: 0 5px
+  .work-center
+    width: 100%
+    padding: 0
+    margin-top: 20px
+  .work-main
+    padding: 0 0 10px
+    border: none
+  .work-title
+    font-size: 24px
+    margin-bottom: 15px
+  .work-text
+    margin-bottom: 10px
+  .work-row
+    margin: 20px 0
+  .work-right
+    margin-top: 30px
+    flex-direction: column
+  .portfolio-item_work
+    margin-bottom: 10px
+  .right-card-new
+    top: 10px
+    left: 10px
+  .slider-transfer
+    height: 150px
+  .slider-transfer-item
+    height: 100%
+  .right-card-add
+    display: none
+  .right-card-add-span
+    display: block
+  .view-third
+    width: calc(100% + 40px)
+    margin-left: -20px
+  .view-third-text
+    padding: 20px
+  .view-left
+    width: calc(100% + 40px)
+    margin-left: -20px
+    height: 360px
+  .view-left-img
+    height: 100%
+    object-fit: cover
+  .view-center
+    width: 100%
+  .view-flex
+    flex-wrap: wrap
+    flex-direction: column
+    padding: 0
+  .view-first
+    padding: 0
+  .view-center
+    margin: 20px 0 0 0
+  .view-third
+    padding: 0
+  .view-second
+    width: calc(100% + 20px)
+    overflow: hidden
+  .view-second-item
+    margin: 0 5px
+  .view-second-slider
+    width: calc(100% + 140px)
+  .view-second-slider
+    margin-bottom: 40px !important
+  .view-right-item:first-child
+    padding: 20px
+  .view-right-row
+    flex-direction: column
+  .view-right-btn
+    width: 100%
+    margin: 0 0 15px 0
+    text-align: center
+  .view-right-label
+    height: 46px
+    line-height: 46px
+  .view-color-flex
+    width: calc(100% + 10px)
+  .view-color-item
+    width: 72px
+    height: 72px
+    margin: 0 10px 10px 0
+  .view-subtitle
+    font-size: 24px
+  .view-tabs-value
+    text-align: right
+  .view-right-item
+    padding-right: 40px
+  .view-tabs-description
+    margin: 20px 0 20px
+  .order-popup-btns
+    flex-direction: column
+  .order-popup-btns-btn
+    margin: 10px 0 0
+  .order-popup-title, .thank-popup-title
+    font-size: 24px
+    line-height: 20px
+    padding-right: 50px
+  .order-popup-main
+    padding: 20px
+  .order-popup-text
+    padding-right: 30px
+  .order-popup-form, .thank-popup-form
+    margin-top: 15px
+  .order-popup-item, .thank-popup-item, .order-popup-item:first-child, .thank-popup-item:first-child
+    width: calc(50% - 10px)
+    margin-right: 20px
+    margin-bottom: 15px
+  .order-popup-item, .thank-popup-item
+    &:nth-child(2n + 2)
+      margin-right: 0
+  .order-popup-flex
+    flex-wrap: wrap
+  .order-popup-row, .thank-popup-row
+    padding: 15px 0 0
+  .order-popup-item-btn:before
+    left: calc(100% + 5px)
+  .order-popup-info
+    flex-direction: column-reverse
+  .order-popup-info .view-right-price, .thank-popup-info .view-right-price
+    margin: 0 0 10px 0
+  .order-popup-info-text, .thank-popup-info-text
+    width: 100%
+    margin-right: 0
+  .order-popup-bottom, .thank-popup-bottom
+    padding: 20px
+  .thank-popup .order-popup-title
+    padding: 0
+  .thank-popup-main
+    padding: 50px 20px 20px
+  .thank-popup-btn
+    margin: 20px 0 0
+  .order-popup-colors-item, .thank-popup-colors-item
+    margin: 0 10px 10px 0
+    width: 62px
+    height: 62px
+  .order-popup-colors-flex, .thank-popup-colors-flex
+    width: calc(100% + 10px)

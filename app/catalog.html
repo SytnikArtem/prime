@@ -13,8 +13,7 @@
 </head>
 
 <body>
-<div class="catalog">
-    <!-- header.html -->
+<!-- header.html -->
 <header class="header">
 	<div class="header-container">
 		<a href="#" class="header-logo-link"><img src="img/logo.svg" alt="logo" class="header-logo"></a>
@@ -26,13 +25,15 @@
                             <polygon points="6 1.07 4.91 0 3 1.87 1.09 0 0 1.07 3 4 6 1.07"/>
                         </svg>
                     </a>
-                    <ul class="header-drop">
-                        <li class="header-drop-list"><a href="#" class="header-drop-link">Ковролин</a></li>
-                        <li class="header-drop-list"><a href="#" class="header-drop-link">Линолеум ПВХ</a></li>
-                        <li class="header-drop-list"><a href="#" class="header-drop-link">Ламинат</a></li>
-                        <li class="header-drop-list"><a href="#" class="header-drop-link">Модульная плитка</a></li>
-                        <li class="header-drop-list"><a href="#" class="header-drop-link">для открытых помещений</a></li>
-                    </ul>
+                    <div class="header-drop">
+                        <ul class="header-drop-list">
+                            <li class="header-drop-item"><a href="#" class="header-drop-link">Ковролин</a></li>
+                            <li class="header-drop-item"><a href="#" class="header-drop-link">Линолеум ПВХ</a></li>
+                            <li class="header-drop-item"><a href="#" class="header-drop-link">Ламинат</a></li>
+                            <li class="header-drop-item"><a href="#" class="header-drop-link">Модульная плитка</a></li>
+                            <li class="header-drop-item"><a href="#" class="header-drop-link">для открытых помещений</a></li>
+                        </ul>
+                    </div>
                 </li>
                 <li class="header-list">
                     <a href="#" class="header-link">О компании</a>
@@ -150,10 +151,11 @@
 
                 </ul>
             </div>
-            <div class="header-libra">
-                <img src="img/compare.svg" alt="" class="header-libra-img">
+            <a href="" class="header-libra">
+                <svg class="header-libra-img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" fill="#343643" data-name="Layer 1" viewBox="0 0 28 28"><defs><style>.cls-1b{fill:none;}.cls-2b{clip-path:url(#clip-pathb);}</style><clipPath id="clip-pathb" transform="translate(5 5)"><path class="cls-1b" d="M14.3,14.36H14a2.56,2.56,0,0,1-2-1.13,2.93,2.93,0,0,1-.45-1.06h5.22a2.75,2.75,0,0,1-.44,1.06,2.6,2.6,0,0,1-2,1.14ZM14.13,2.6h0l2.54,8.22a.83.83,0,0,1,0,.15H11.56a.83.83,0,0,1,0-.15ZM9,4.2a1,1,0,1,1,1-1A1,1,0,0,1,9,4.2ZM6.44,13.4H1.29a1.24,1.24,0,0,1,0-.16L3.86,5,6.4,13.24A1.24,1.24,0,0,1,6.44,13.4ZM4,16.8H3.7a2.63,2.63,0,0,1-2-1.13,2.79,2.79,0,0,1-.44-1.07H6.47A2.75,2.75,0,0,1,6,15.66,2.61,2.61,0,0,1,4,16.8Zm13.79-6.34L14.73.44a.62.62,0,0,0-1.19,0L13.19,1.6l-2.27.53a2.2,2.2,0,0,0-4.12,1l-2.12.5-.22-.74a.62.62,0,0,0-1.19,0l-3.09,10a4,4,0,0,0,.54,3.46A3.78,3.78,0,0,0,3.63,18H4.1A3.8,3.8,0,0,0,7,16.35a4,4,0,0,0,.54-3.45L5,4.75l2-.48a2.2,2.2,0,0,0,4.12-1l1.58-.37-2.33,7.53A4,4,0,0,0,11,13.92a3.8,3.8,0,0,0,2.91,1.65h.47a3.8,3.8,0,0,0,2.91-1.65A4,4,0,0,0,17.82,10.46Z"/></clipPath></defs><title>compare</title><g class="cls-2b"><rect width="28" height="28"/></g></svg>
+                <!--<img src="img/compare.svg" alt="" >-->
                 <span class="header-libra-span">12</span>
-            </div>
+            </a>
         </div>
         <div class="header-btn-menu">
             <span class="header-line header-line_top"></span>
@@ -163,6 +165,7 @@
 	</div>
 
 </header>
+<div class="catalog">
     <section class="catalog-first">
         <div class="catalog-crumbs">
             <a href="#" class="catalog-crumbs-link">Главная</a>
@@ -170,302 +173,1099 @@
         </div>
         <div class="catalog-container">
             <div class="catalog-left">
-                <div class="catalog-left-selected">
-                    <a href="#" class="catalog-left-link">Тип <div class="catalog-left-ball"><img src="img/clouse.svg" alt="close" class="catalog-left-close"></div></a>
-                    <a href="#" class="catalog-left-link">Производитель<div class="catalog-left-ball"><img src="img/clouse.svg" alt="close" class="catalog-left-close"></div></a>
-                    <a href="#" class="catalog-left-link">Класс<div class="catalog-left-ball"><img src="img/clouse.svg" alt="close" class="catalog-left-close"></div></a>
-                    <a href="#" class="catalog-left-link">Особенности<div class="catalog-left-ball"><img src="img/clouse.svg" alt="close" class="catalog-left-close"></div></a>
+                <div class="catalog-left-main">Фильтр
+                    <svg id="Layer_1q" class="catalog-left-main-img" fill="#343643" data-name="Layer 1q"  viewBox="0 0 55.96 55.9"><defs><style>.cls-1q{fill:none;}.cls-2q{clip-path:url(#clip-pathq);}</style><clipPath id="clip-pathq" transform="translate(4.98 4.88)"><path class="cls-1q" d="M45,44.8l-.2.2c-1.5,1.5-2.7,1.1-3.8,0L23,27.1,5.1,45c-1.2,1.2-2.3,1.5-3.8,0L1,44.8C-.5,43.3-.1,42.1,1,41L19,23,1.1,5.1C-.1,3.9-.4,2.8,1.1,1.3l.2-.2C2.8-.4,4,0,5.1,1.1L23,19,40.9,1.1c1.2-1.2,2.4-1.4,3.8,0l.2.2c1.5,1.5,1.1,2.7,0,3.8L27,23,45,41C46.2,42.2,46.4,43.4,45,44.8Z"/></clipPath></defs><title>clouse</title><g class="cls-2q"><rect width="55.96" height="55.9"/></g></svg>
                 </div>
-                <div class="catalog-left-count">
-                    <div class="catalog-left-title">Диапазон цен</div>
-                    <div class="filter-count-line"></div>
-                    <div class="filter-count-flex">
-                        <div class="filter-count-item">
-                            <input type="text" class="minCost filter-count-input" value="364"/>
-                            <p class="filter-count-text">грн</p>
-                        </div>
-                        <div class="filter-count-item">
-                            <input type="text" class="maxCost filter-count-input" value="6000"/>
-                            <p class="filter-count-text">грн</p>
+                <div class="catalog-left-box">
+                    <div class="catalog-left-selected">
+                        <a href="#" class="catalog-left-link">Тип <div class="catalog-left-ball"><img src="img/clouse.svg" alt="close" class="catalog-left-close"></div></a>
+                        <a href="#" class="catalog-left-link">Производитель<div class="catalog-left-ball"><img src="img/clouse.svg" alt="close" class="catalog-left-close"></div></a>
+                        <a href="#" class="catalog-left-link">Класс<div class="catalog-left-ball"><img src="img/clouse.svg" alt="close" class="catalog-left-close"></div></a>
+                        <a href="#" class="catalog-left-link">Особенности<div class="catalog-left-ball"><img src="img/clouse.svg" alt="close" class="catalog-left-close"></div></a>
+                    </div>
+                    <div class="catalog-left-count">
+                        <div class="catalog-left-title">Диапазон цен</div>
+                        <div class="filter-count-line"></div>
+                        <div class="filter-count-flex">
+                            <div class="filter-count-item">
+                                <input type="text" class="minCost filter-count-input" value="364"/>
+                                <p class="filter-count-text">грн</p>
+                            </div>
+                            <div class="filter-count-item">
+                                <input type="text" class="maxCost filter-count-input" value="6000"/>
+                                <p class="filter-count-text">грн</p>
+                            </div>
                         </div>
                     </div>
+                    <div class="catalog-left-title">Цвет</div>
+                    <div class="catalog-color-box">
+                        <label class="catalog-left-field">
+                            <input type="checkbox" class="catalog-left-checkbox">
+                            <span class="catalog-left-color one"></span>
+                        </label>
+                        <label class="catalog-left-field">
+                            <input type="checkbox" class="catalog-left-checkbox">
+                            <span class="catalog-left-color two"></span>
+                        </label>
+                        <label class="catalog-left-field">
+                            <input type="checkbox" class="catalog-left-checkbox">
+                            <span class="catalog-left-color tree"></span>
+                        </label>
+                        <label class="catalog-left-field">
+                            <input type="checkbox" class="catalog-left-checkbox">
+                            <span class="catalog-left-color four"></span>
+                        </label>
+                        <label class="catalog-left-field">
+                            <input type="checkbox" class="catalog-left-checkbox">
+                            <span class="catalog-left-color five"></span>
+                        </label>
+                        <label class="catalog-left-field">
+                            <input type="checkbox" class="catalog-left-checkbox">
+                            <span class="catalog-left-color six"></span>
+                        </label>
+                        <label class="catalog-left-field">
+                            <input type="checkbox" class="catalog-left-checkbox">
+                            <span class="catalog-left-color seven"></span>
+                        </label>
+                        <label class="catalog-left-field">
+                            <input type="checkbox" class="catalog-left-checkbox">
+                            <span class="catalog-left-color eight"></span>
+                        </label>
+                        <label class="catalog-left-field">
+                            <input type="checkbox" class="catalog-left-checkbox">
+                            <span class="catalog-left-color nine"></span>
+                        </label>
+                    </div>
+                    <div class="catalog-left-title">Производитель</div>
+                    <div class="catalog-left-block">
+                        <label class="catalog-left-manufacturer">
+                            <input type="checkbox" class="catalog-left-checkbox">
+                            <span class="catalog-left-item"></span>
+                            <span class="catalog-left-manufacturer-title">Balterio</span>
+                        </label>
+                        <label class="catalog-left-manufacturer">
+                            <input type="checkbox" class="catalog-left-checkbox">
+                            <span class="catalog-left-item"></span>
+                            <span class="catalog-left-manufacturer-title">Classen</span>
+                        </label>
+                        <label class="catalog-left-manufacturer">
+                            <input type="checkbox" class="catalog-left-checkbox">
+                            <span class="catalog-left-item"></span>
+                            <span class="catalog-left-manufacturer-title">Egger</span>
+                        </label>
+                        <label class="catalog-left-manufacturer">
+                            <input type="checkbox" class="catalog-left-checkbox">
+                            <span class="catalog-left-item"></span>
+                            <span class="catalog-left-manufacturer-title">Egger Pro</span>
+                        </label>
+                        <label class="catalog-left-manufacturer">
+                            <input type="checkbox" class="catalog-left-checkbox">
+                            <span class="catalog-left-item"></span>
+                            <span class="catalog-left-manufacturer-title">Kastamonu</span>
+                        </label>
+                        <label class="catalog-left-manufacturer">
+                            <input type="checkbox" class="catalog-left-checkbox">
+                            <span class="catalog-left-item"></span>
+                            <span class="catalog-left-manufacturer-title">Kronopol</span>
+                        </label>
+                        <label class="catalog-left-manufacturer">
+                            <input type="checkbox" class="catalog-left-checkbox">
+                            <span class="catalog-left-item"></span>
+                            <span class="catalog-left-manufacturer-title">Kronotex</span>
+                        </label>
+                        <label class="catalog-left-manufacturer">
+                            <span class="catalog-left-manufacturer-title">Parador</span>
+                            <input type="checkbox" class="catalog-left-checkbox">
+                            <span class="catalog-left-item"></span>
+                        </label>
+                        <label class="catalog-left-manufacturer">
+                            <input type="checkbox" class="catalog-left-checkbox">
+                            <span class="catalog-left-item"></span>
+                            <span class="catalog-left-manufacturer-title">Pergo</span>
+                        </label>
+                        <label class="catalog-left-manufacturer">
+                            <input type="checkbox" class="catalog-left-checkbox">
+                            <span class="catalog-left-item"></span>
+                            <span class="catalog-left-manufacturer-title">Sinteros</span>
+                        </label>
+                        <label class="catalog-left-manufacturer">
+                            <input type="checkbox" class="catalog-left-checkbox">
+                            <span class="catalog-left-item"></span>
+                            <span class="catalog-left-manufacturer-title">Swiss Krono</span>
+                        </label>
+                        <label class="catalog-left-manufacturer">
+                            <input type="checkbox" class="catalog-left-checkbox">
+                            <span class="catalog-left-item"></span>
+                            <span class="catalog-left-manufacturer-title">Tarkett</span>
+                        </label>
+                        <label class="catalog-left-manufacturer">
+                            <input type="checkbox" class="catalog-left-checkbox">
+                            <span class="catalog-left-manufacturer-title">Windmoller (Wineo)</span>
+                            <span class="catalog-left-item"></span>
+                        </label>
+                    </div>
+                    <div class="catalog-left-title">Класс износоустойчивости</div>
+                    <div class="catalog-left-class">
+                        <label class="catalog-left-class-label">
+                            <input type="checkbox" class="catalog-left-checkbox">
+                            <span class="catalog-left-class-item"></span>
+                            <span class="catalog-left-class-number">23</span>
+                        </label>
+                        <label class="catalog-left-class-label">
+                            <input type="checkbox" class="catalog-left-checkbox">
+                            <span class="catalog-left-class-item"></span>
+                            <span class="catalog-left-class-number">31</span>
+                        </label>
+                        <label class="catalog-left-class-label">
+                            <input type="checkbox" class="catalog-left-checkbox">
+                            <span class="catalog-left-class-item"></span>
+                            <span class="catalog-left-class-number">32</span>
+                        </label>
+                        <label class="catalog-left-class-label">
+                            <input type="checkbox" class="catalog-left-checkbox">
+                            <span class="catalog-left-class-item"></span>
+                            <span class="catalog-left-class-number">33</span>
+                        </label>
+                        <label class="catalog-left-class-label">
+                            <input type="checkbox" class="catalog-left-checkbox">
+                            <span class="catalog-left-class-item"></span>
+                            <span class="catalog-left-class-number">34</span>
+                        </label>
+                    </div>
+                    <div class="catalog-left-title">Толщина слоя износа</div>
+                    <div class="catalog-left-block">
+                        <label class="catalog-left-manufacturer catalog-left-wear">
+                            <input type="checkbox" class="catalog-left-checkbox">
+                            <span class="catalog-left-item"></span>
+                            <span class="catalog-left-manufacturer-title">0.2 - 0.4 мм</span>
+                        </label>
+                        <label class="catalog-left-manufacturer catalog-left-wear">
+                            <input type="checkbox" class="catalog-left-checkbox">
+                            <span class="catalog-left-item"></span>
+                            <span class="catalog-left-manufacturer-title ">0.4 - 0.6 мм</span>
+                        </label>
+                        <label class="catalog-left-manufacturer catalog-left-wear">
+                            <input type="checkbox" class="catalog-left-checkbox">
+                            <span class="catalog-left-item"></span>
+                            <span class="catalog-left-manufacturer-title">0.6 - 0.8 мм</span>
+                        </label>
+                    </div>
+                    <div class="catalog-left-title">Особенности</div>
+                    <div class="catalog-left-block">
+                        <label class="catalog-left-manufacturer catalog-left-special">
+                            <input type="checkbox" class="catalog-left-checkbox">
+                            <span class="catalog-left-item"></span>
+                            <span class="catalog-left-manufacturer-title">Без фаски</span>
+                        </label>
+                        <label class="catalog-left-manufacturer catalog-left-special">
+                            <input type="checkbox" class="catalog-left-checkbox">
+                            <span class="catalog-left-item"></span>
+                            <span class="catalog-left-manufacturer-title">С фаской</span>
+                        </label>
+                    </div>
+                    <a href="#" class="catalog-left-btn">применить</a>
                 </div>
-                <div class="catalog-left-title">Цвет</div>
-                <div class="catalog-color-box">
-                    <label class="catalog-left-field">
-                        <input type="checkbox" class="catalog-left-checkbox">
-                        <span class="catalog-left-color one"></span>
-                    </label>
-                    <label class="catalog-left-field">
-                        <input type="checkbox" class="catalog-left-checkbox">
-                        <span class="catalog-left-color two"></span>
-                    </label>
-                    <label class="catalog-left-field">
-                        <input type="checkbox" class="catalog-left-checkbox">
-                        <span class="catalog-left-color tree"></span>
-                    </label>
-                    <label class="catalog-left-field">
-                        <input type="checkbox" class="catalog-left-checkbox">
-                        <span class="catalog-left-color four"></span>
-                    </label>
-                    <label class="catalog-left-field">
-                        <input type="checkbox" class="catalog-left-checkbox">
-                        <span class="catalog-left-color five"></span>
-                    </label>
-                    <label class="catalog-left-field">
-                        <input type="checkbox" class="catalog-left-checkbox">
-                        <span class="catalog-left-color six"></span>
-                    </label>
-                    <label class="catalog-left-field">
-                        <input type="checkbox" class="catalog-left-checkbox">
-                        <span class="catalog-left-color seven"></span>
-                    </label>
-                    <label class="catalog-left-field">
-                        <input type="checkbox" class="catalog-left-checkbox">
-                        <span class="catalog-left-color eight"></span>
-                    </label>
-                    <label class="catalog-left-field">
-                        <input type="checkbox" class="catalog-left-checkbox">
-                        <span class="catalog-left-color nine"></span>
-                    </label>
-                </div>
-                <div class="catalog-left-title">Производитель</div>
-                <div class="catalog-left-block">
-                    <label class="catalog-left-manufacturer">
-                        <input type="checkbox" class="catalog-left-checkbox">
-                        <span class="catalog-left-item"></span>
-                        <span class="catalog-left-manufacturer-title">Balterio</span>
-                    </label>
-                    <label class="catalog-left-manufacturer">
-                        <input type="checkbox" class="catalog-left-checkbox">
-                        <span class="catalog-left-item"></span>
-                        <span class="catalog-left-manufacturer-title">Classen</span>
-                    </label>
-                    <label class="catalog-left-manufacturer">
-                        <input type="checkbox" class="catalog-left-checkbox">
-                        <span class="catalog-left-item"></span>
-                        <span class="catalog-left-manufacturer-title">Egger</span>
-                    </label>
-                    <label class="catalog-left-manufacturer">
-                        <input type="checkbox" class="catalog-left-checkbox">
-                        <span class="catalog-left-item"></span>
-                        <span class="catalog-left-manufacturer-title">Egger Pro</span>
-                    </label>
-                    <label class="catalog-left-manufacturer">
-                        <input type="checkbox" class="catalog-left-checkbox">
-                        <span class="catalog-left-item"></span>
-                        <span class="catalog-left-manufacturer-title">Kastamonu</span>
-                    </label>
-                    <label class="catalog-left-manufacturer">
-                        <input type="checkbox" class="catalog-left-checkbox">
-                        <span class="catalog-left-item"></span>
-                        <span class="catalog-left-manufacturer-title">Kronopol</span>
-                    </label>
-                    <label class="catalog-left-manufacturer">
-                        <input type="checkbox" class="catalog-left-checkbox">
-                        <span class="catalog-left-item"></span>
-                        <span class="catalog-left-manufacturer-title">Kronotex</span>
-                    </label>
-                    <label class="catalog-left-manufacturer">
-                        <span class="catalog-left-manufacturer-title">Parador</span>
-                        <input type="checkbox" class="catalog-left-checkbox">
-                        <span class="catalog-left-item"></span>
-                    </label>
-                    <label class="catalog-left-manufacturer">
-                        <input type="checkbox" class="catalog-left-checkbox">
-                        <span class="catalog-left-item"></span>
-                        <span class="catalog-left-manufacturer-title">Pergo</span>
-                    </label>
-                    <label class="catalog-left-manufacturer">
-                        <input type="checkbox" class="catalog-left-checkbox">
-                        <span class="catalog-left-item"></span>
-                        <span class="catalog-left-manufacturer-title">Sinteros</span>
-                    </label>
-                    <label class="catalog-left-manufacturer">
-                        <input type="checkbox" class="catalog-left-checkbox">
-                        <span class="catalog-left-item"></span>
-                        <span class="catalog-left-manufacturer-title">Swiss Krono</span>
-                    </label>
-                    <label class="catalog-left-manufacturer">
-                        <input type="checkbox" class="catalog-left-checkbox">
-                        <span class="catalog-left-item"></span>
-                        <span class="catalog-left-manufacturer-title">Tarkett</span>
-                    </label>
-                    <label class="catalog-left-manufacturer">
-                        <input type="checkbox" class="catalog-left-checkbox">
-                        <span class="catalog-left-manufacturer-title">Windmoller (Wineo)</span>
-                        <span class="catalog-left-item"></span>
-                    </label>
-                </div>
-                <div class="catalog-left-title">Класс износоустойчивости</div>
-                <div class="catalog-left-class">
-                    <label class="catalog-left-class-label">
-                        <input type="checkbox" class="catalog-left-checkbox">
-                        <span class="catalog-left-class-item"></span>
-                        <span class="catalog-left-class-number">23</span>
-                    </label>
-                    <label class="catalog-left-class-label">
-                        <input type="checkbox" class="catalog-left-checkbox">
-                        <span class="catalog-left-class-item"></span>
-                        <span class="catalog-left-class-number">31</span>
-                    </label>
-                    <label class="catalog-left-class-label">
-                        <input type="checkbox" class="catalog-left-checkbox">
-                        <span class="catalog-left-class-item"></span>
-                        <span class="catalog-left-class-number">32</span>
-                    </label>
-                    <label class="catalog-left-class-label">
-                        <input type="checkbox" class="catalog-left-checkbox">
-                        <span class="catalog-left-class-item"></span>
-                        <span class="catalog-left-class-number">33</span>
-                    </label>
-                    <label class="catalog-left-class-label">
-                        <input type="checkbox" class="catalog-left-checkbox">
-                        <span class="catalog-left-class-item"></span>
-                        <span class="catalog-left-class-number">34</span>
-                    </label>
-                </div>
-                <div class="catalog-left-title">Толщина слоя износа</div>
-                <div class="catalog-left-block">
-                    <label class="catalog-left-manufacturer catalog-left-wear">
-                        <input type="checkbox" class="catalog-left-checkbox">
-                        <span class="catalog-left-item"></span>
-                        <span class="catalog-left-manufacturer-title">0.2 - 0.4 мм</span>
-                    </label>
-                    <label class="catalog-left-manufacturer catalog-left-wear">
-                        <input type="checkbox" class="catalog-left-checkbox">
-                        <span class="catalog-left-item"></span>
-                        <span class="catalog-left-manufacturer-title ">0.4 - 0.6 мм</span>
-                    </label>
-                    <label class="catalog-left-manufacturer catalog-left-wear">
-                        <input type="checkbox" class="catalog-left-checkbox">
-                        <span class="catalog-left-item"></span>
-                        <span class="catalog-left-manufacturer-title">0.6 - 0.8 мм</span>
-                    </label>
-                </div>
-                <div class="catalog-left-title">Особенности</div>
-                <div class="catalog-left-block">
-                    <label class="catalog-left-manufacturer catalog-left-special">
-                        <input type="checkbox" class="catalog-left-checkbox">
-                        <span class="catalog-left-item"></span>
-                        <span class="catalog-left-manufacturer-title">Без фаски</span>
-                    </label>
-                    <label class="catalog-left-manufacturer catalog-left-special">
-                        <input type="checkbox" class="catalog-left-checkbox">
-                        <span class="catalog-left-item"></span>
-                        <span class="catalog-left-manufacturer-title">С фаской</span>
-                    </label>
-                </div>
-                <a href="#" class="catalog-left-btn">применить</a>
+
             </div>
             <div class="catalog-right">
                 <div class="catalog-right-top">
                     <h1 class="catalog-right-title">Ламинат</h1>
                     <div class="catalog-right-sort">
                         <span class="catalog-right-sort-span">Сопртировать по:</span>
-                        <select name="" class="catalog-right-select"></select>
+                        <div class="catalog-right-filter">Фильтр <img src="img/arrow-down.svg" alt="" class="catalog-right-filter-img"></div>
+                        <select name="" class="catalog-right-select">
+                            <option class="catalog-right-option catalog-sort" disabled>Сортировать</option>
+                            <option class="catalog-right-option">От дешевых к дорогим</option>
+                            <option class="catalog-right-option">От дороги к дешевым</option>
+                        </select>
                     </div>
                 </div>
                 <div class="catalog-right-center">
                     <div class="catalog-right-card right-card">
                         <div class="right-card-top">
                             <div class="slider-transfer">
-                                <div class="slider-transfer-item active"><img src="img/big1.png" alt="" class="slider-transfer-img"></div>
-                                <div class="slider-transfer-item"><img src="img/big2.png" alt="" class="slider-transfer-img"></div>
                                 <div class="slider-transfer-item"><img src="img/big1.png" alt="" class="slider-transfer-img"></div>
-                                <div class="slider-transfer-item"><img src="img/big2.png" alt="" class="slider-transfer-img"></div>
-                                <div class="slider-transfer-item"><img src="img/big2.png" alt="" class="slider-transfer-img"></div>
                             </div>
-                            <img src="" alt="" class="right-card-img">
                             <div class="right-card-new">Новинка</div>
                             <div class="slider-choice">
-                                <div class="slider-choice-item active"><img src="img/mini1.png" alt="" class="slider-choice-img"></div>
-                                <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img"></div>
-                                <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img"></div>
-                                <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img"></div>
-                                <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img"></div>
-                                <div class="slider-choice-item-plus"><img src="img/plus.svg" alt="" class="slider-choice-plus"></div>
+                                <div class="slider-choice-flex">
+                                    <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item slider-choice-item-plus">
+                                        <svg width="100%" height="100%" class="slider-choice-plus" id="Layer_1" fill="#a1a4ac" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 17.65 17.65">
+                                            <defs>
+                                                <style>.cls-1p{fill:none;}.cls-2p{clip-path:url(#clip-pathp);}</style>
+                                                <clipPath id="clip-pathp" transform="translate(5 5)">
+                                                    <path class="cls-1p" d="M7.65,3.42A.43.43,0,0,0,7.22,3H5.09a.43.43,0,0,1-.43-.43V.43A.43.43,0,0,0,4.23,0H3.42A.43.43,0,0,0,3,.43V2.56A.43.43,0,0,1,2.56,3H.43A.43.43,0,0,0,0,3.42v.81a.43.43,0,0,0,.43.43H2.56A.43.43,0,0,1,3,5.09V7.22a.43.43,0,0,0,.43.43h.81a.44.44,0,0,0,.43-.43V5.09a.43.43,0,0,1,.43-.43H7.22a.44.44,0,0,0,.43-.43Z"/>
+                                                </clipPath>
+                                            </defs>
+                                            <g class="cls-2p">
+                                                <rect width="17.65" height="17.65"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+
+                                    <div class="slider-choice-item-drop">
+                                        <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                        <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                        <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
                         <div class="right-card-down">
                             <div class="right-card-title">Tarkett Infinite</div>
-                            <div class="right-card-class">Класс износоустойчивости: <span class="right-card-wear">32</span></div>
+                            <div class="right-card-class">Класс<span class="right-card-class-span"> износоустойчивости: </span><span class="right-card-wear"> 32</span></div>
                             <div class="right-card-line"></div>
                             <div class="right-card-price"><span class="right-card-number">683.55 </span> грн/кв.м</div>
                             <label class="right-card-field">
                                 <input type="checkbox" class="catalog-left-checkbox">
                                 <span class="right-card-item"></span>
                                 <span class="right-card-add">добавить в сравнение</span>
+                                <span class="right-card-add-span">сравнить</span>
                             </label>
                         </div>
                     </div>
                     <div class="catalog-right-card right-card">
                         <div class="right-card-top">
                             <div class="slider-transfer">
-                                <div class="slider-transfer-item active"><img src="img/big1.png" alt="" class="slider-transfer-img"></div>
-                                <div class="slider-transfer-item"><img src="img/big2.png" alt="" class="slider-transfer-img"></div>
                                 <div class="slider-transfer-item"><img src="img/big1.png" alt="" class="slider-transfer-img"></div>
-                                <div class="slider-transfer-item"><img src="img/big2.png" alt="" class="slider-transfer-img"></div>
-                                <div class="slider-transfer-item"><img src="img/big2.png" alt="" class="slider-transfer-img"></div>
                             </div>
-                            <img src="" alt="" class="right-card-img">
                             <div class="right-card-new">Новинка</div>
                             <div class="slider-choice">
-                                <div class="slider-choice-item active"><img src="img/mini1.png" alt="" class="slider-choice-img"></div>
-                                <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img"></div>
-                                <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img"></div>
-                                <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img"></div>
-                                <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img"></div>
-                                <div class="slider-choice-item-plus"><img src="img/plus.svg" alt="" class="slider-choice-plus"></div>
+                                <div class="slider-choice-flex">
+                                    <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item slider-choice-item-plus">
+                                        <svg width="100%" height="100%" class="slider-choice-plus" id="Layer_1" fill="#a1a4ac" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 17.65 17.65">
+                                            <defs>
+                                                <style>.cls-1p{fill:none;}.cls-2p{clip-path:url(#clip-pathp);}</style>
+                                                <clipPath id="clip-pathp" transform="translate(5 5)">
+                                                    <path class="cls-1p" d="M7.65,3.42A.43.43,0,0,0,7.22,3H5.09a.43.43,0,0,1-.43-.43V.43A.43.43,0,0,0,4.23,0H3.42A.43.43,0,0,0,3,.43V2.56A.43.43,0,0,1,2.56,3H.43A.43.43,0,0,0,0,3.42v.81a.43.43,0,0,0,.43.43H2.56A.43.43,0,0,1,3,5.09V7.22a.43.43,0,0,0,.43.43h.81a.44.44,0,0,0,.43-.43V5.09a.43.43,0,0,1,.43-.43H7.22a.44.44,0,0,0,.43-.43Z"/>
+                                                </clipPath>
+                                            </defs>
+                                            <g class="cls-2p">
+                                                <rect width="17.65" height="17.65"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+
+                                    <div class="slider-choice-item-drop">
+                                        <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                        <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                        <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
                         <div class="right-card-down">
                             <div class="right-card-title">Tarkett Infinite</div>
-                            <div class="right-card-class">Класс износоустойчивости: <span class="right-card-wear">32</span></div>
+                            <div class="right-card-class">Класс:<span class="right-card-class-span"> износоустойчивости: </span><span class="right-card-wear"> 32</span></div>
                             <div class="right-card-line"></div>
                             <div class="right-card-price"><span class="right-card-number">683.55 </span> грн/кв.м</div>
                             <label class="right-card-field">
                                 <input type="checkbox" class="catalog-left-checkbox">
                                 <span class="right-card-item"></span>
                                 <span class="right-card-add">добавить в сравнение</span>
+                                <span class="right-card-add-span">сравнить</span>
                             </label>
                         </div>
                     </div>
                     <div class="catalog-right-card right-card">
                         <div class="right-card-top">
                             <div class="slider-transfer">
-                                <div class="slider-transfer-item active"><img src="img/big1.png" alt="" class="slider-transfer-img"></div>
-                                <div class="slider-transfer-item"><img src="img/big2.png" alt="" class="slider-transfer-img"></div>
                                 <div class="slider-transfer-item"><img src="img/big1.png" alt="" class="slider-transfer-img"></div>
-                                <div class="slider-transfer-item"><img src="img/big2.png" alt="" class="slider-transfer-img"></div>
-                                <div class="slider-transfer-item"><img src="img/big2.png" alt="" class="slider-transfer-img"></div>
                             </div>
-                            <img src="" alt="" class="right-card-img">
                             <div class="right-card-new">Новинка</div>
                             <div class="slider-choice">
-                                <div class="slider-choice-item active"><img src="img/mini1.png" alt="" class="slider-choice-img"></div>
-                                <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img"></div>
-                                <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img"></div>
-                                <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img"></div>
-                                <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img"></div>
-                                <div class="slider-choice-item-plus"><img src="img/plus.svg" alt="" class="slider-choice-plus"></div>
+                                <div class="slider-choice-flex">
+                                    <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item slider-choice-item-plus">
+                                        <svg width="100%" height="100%" class="slider-choice-plus" id="Layer_1" fill="#a1a4ac" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 17.65 17.65">
+                                            <defs>
+                                                <style>.cls-1p{fill:none;}.cls-2p{clip-path:url(#clip-pathp);}</style>
+                                                <clipPath id="clip-pathp" transform="translate(5 5)">
+                                                    <path class="cls-1p" d="M7.65,3.42A.43.43,0,0,0,7.22,3H5.09a.43.43,0,0,1-.43-.43V.43A.43.43,0,0,0,4.23,0H3.42A.43.43,0,0,0,3,.43V2.56A.43.43,0,0,1,2.56,3H.43A.43.43,0,0,0,0,3.42v.81a.43.43,0,0,0,.43.43H2.56A.43.43,0,0,1,3,5.09V7.22a.43.43,0,0,0,.43.43h.81a.44.44,0,0,0,.43-.43V5.09a.43.43,0,0,1,.43-.43H7.22a.44.44,0,0,0,.43-.43Z"/>
+                                                </clipPath>
+                                            </defs>
+                                            <g class="cls-2p">
+                                                <rect width="17.65" height="17.65"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+
+                                    <div class="slider-choice-item-drop">
+                                        <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                        <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                        <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
                         <div class="right-card-down">
                             <div class="right-card-title">Tarkett Infinite</div>
-                            <div class="right-card-class">Класс износоустойчивости: <span class="right-card-wear">32</span></div>
+                            <div class="right-card-class">Класс:<span class="right-card-class-span"> износоустойчивости: </span><span class="right-card-wear"> 32</span></div>
                             <div class="right-card-line"></div>
                             <div class="right-card-price"><span class="right-card-number">683.55 </span> грн/кв.м</div>
                             <label class="right-card-field">
                                 <input type="checkbox" class="catalog-left-checkbox">
                                 <span class="right-card-item"></span>
                                 <span class="right-card-add">добавить в сравнение</span>
+                                <span class="right-card-add-span">сравнить</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="catalog-right-card right-card">
+                        <div class="right-card-top">
+                            <div class="slider-transfer">
+                                <div class="slider-transfer-item"><img src="img/big1.png" alt="" class="slider-transfer-img"></div>
+                            </div>
+                            <div class="right-card-new">Новинка</div>
+                            <div class="slider-choice">
+                                <div class="slider-choice-flex">
+                                    <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item slider-choice-item-plus">
+                                        <svg width="100%" height="100%" class="slider-choice-plus" id="Layer_1" fill="#a1a4ac" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 17.65 17.65">
+                                            <defs>
+                                                <style>.cls-1p{fill:none;}.cls-2p{clip-path:url(#clip-pathp);}</style>
+                                                <clipPath id="clip-pathp" transform="translate(5 5)">
+                                                    <path class="cls-1p" d="M7.65,3.42A.43.43,0,0,0,7.22,3H5.09a.43.43,0,0,1-.43-.43V.43A.43.43,0,0,0,4.23,0H3.42A.43.43,0,0,0,3,.43V2.56A.43.43,0,0,1,2.56,3H.43A.43.43,0,0,0,0,3.42v.81a.43.43,0,0,0,.43.43H2.56A.43.43,0,0,1,3,5.09V7.22a.43.43,0,0,0,.43.43h.81a.44.44,0,0,0,.43-.43V5.09a.43.43,0,0,1,.43-.43H7.22a.44.44,0,0,0,.43-.43Z"/>
+                                                </clipPath>
+                                            </defs>
+                                            <g class="cls-2p">
+                                                <rect width="17.65" height="17.65"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+
+                                    <div class="slider-choice-item-drop">
+                                        <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                        <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                        <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-card-down">
+                            <div class="right-card-title">Tarkett Infinite</div>
+                            <div class="right-card-class">Класс:<span class="right-card-class-span"> износоустойчивости: </span><span class="right-card-wear"> 32</span></div>
+                            <div class="right-card-line"></div>
+                            <div class="right-card-price"><span class="right-card-number">683.55 </span> грн/кв.м</div>
+                            <label class="right-card-field">
+                                <input type="checkbox" class="catalog-left-checkbox">
+                                <span class="right-card-item"></span>
+                                <span class="right-card-add">добавить в сравнение</span>
+                                <span class="right-card-add-span">сравнить</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="catalog-right-card right-card">
+                        <div class="right-card-top">
+                            <div class="slider-transfer">
+                                <div class="slider-transfer-item"><img src="img/big1.png" alt="" class="slider-transfer-img"></div>
+                            </div>
+                            <div class="right-card-new">Новинка</div>
+                            <div class="slider-choice">
+                                <div class="slider-choice-flex">
+                                    <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item slider-choice-item-plus">
+                                        <svg width="100%" height="100%" class="slider-choice-plus" id="Layer_1" fill="#a1a4ac" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 17.65 17.65">
+                                            <defs>
+                                                <style>.cls-1p{fill:none;}.cls-2p{clip-path:url(#clip-pathp);}</style>
+                                                <clipPath id="clip-pathp" transform="translate(5 5)">
+                                                    <path class="cls-1p" d="M7.65,3.42A.43.43,0,0,0,7.22,3H5.09a.43.43,0,0,1-.43-.43V.43A.43.43,0,0,0,4.23,0H3.42A.43.43,0,0,0,3,.43V2.56A.43.43,0,0,1,2.56,3H.43A.43.43,0,0,0,0,3.42v.81a.43.43,0,0,0,.43.43H2.56A.43.43,0,0,1,3,5.09V7.22a.43.43,0,0,0,.43.43h.81a.44.44,0,0,0,.43-.43V5.09a.43.43,0,0,1,.43-.43H7.22a.44.44,0,0,0,.43-.43Z"/>
+                                                </clipPath>
+                                            </defs>
+                                            <g class="cls-2p">
+                                                <rect width="17.65" height="17.65"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+
+                                    <div class="slider-choice-item-drop">
+                                        <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                        <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                        <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-card-down">
+                            <div class="right-card-title">Tarkett Infinite</div>
+                            <div class="right-card-class">Класс:<span class="right-card-class-span"> износоустойчивости: </span><span class="right-card-wear"> 32</span></div>
+                            <div class="right-card-line"></div>
+                            <div class="right-card-price"><span class="right-card-number">683.55 </span> грн/кв.м</div>
+                            <label class="right-card-field">
+                                <input type="checkbox" class="catalog-left-checkbox">
+                                <span class="right-card-item"></span>
+                                <span class="right-card-add">добавить в сравнение</span>
+                                <span class="right-card-add-span">сравнить</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="catalog-right-card right-card">
+                        <div class="right-card-top">
+                            <div class="slider-transfer">
+                                <div class="slider-transfer-item"><img src="img/big1.png" alt="" class="slider-transfer-img"></div>
+                            </div>
+                            <div class="right-card-new">Новинка</div>
+                            <div class="slider-choice">
+                                <div class="slider-choice-flex">
+                                    <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item slider-choice-item-plus">
+                                        <svg width="100%" height="100%" class="slider-choice-plus" id="Layer_1" fill="#a1a4ac" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 17.65 17.65">
+                                            <defs>
+                                                <style>.cls-1p{fill:none;}.cls-2p{clip-path:url(#clip-pathp);}</style>
+                                                <clipPath id="clip-pathp" transform="translate(5 5)">
+                                                    <path class="cls-1p" d="M7.65,3.42A.43.43,0,0,0,7.22,3H5.09a.43.43,0,0,1-.43-.43V.43A.43.43,0,0,0,4.23,0H3.42A.43.43,0,0,0,3,.43V2.56A.43.43,0,0,1,2.56,3H.43A.43.43,0,0,0,0,3.42v.81a.43.43,0,0,0,.43.43H2.56A.43.43,0,0,1,3,5.09V7.22a.43.43,0,0,0,.43.43h.81a.44.44,0,0,0,.43-.43V5.09a.43.43,0,0,1,.43-.43H7.22a.44.44,0,0,0,.43-.43Z"/>
+                                                </clipPath>
+                                            </defs>
+                                            <g class="cls-2p">
+                                                <rect width="17.65" height="17.65"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+
+                                    <div class="slider-choice-item-drop">
+                                        <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                        <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                        <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-card-down">
+                            <div class="right-card-title">Tarkett Infinite</div>
+                            <div class="right-card-class">Класс:<span class="right-card-class-span"> износоустойчивости: </span><span class="right-card-wear"> 32</span></div>
+                            <div class="right-card-line"></div>
+                            <div class="right-card-price"><span class="right-card-number">683.55 </span> грн/кв.м</div>
+                            <label class="right-card-field">
+                                <input type="checkbox" class="catalog-left-checkbox">
+                                <span class="right-card-item"></span>
+                                <span class="right-card-add">добавить в сравнение</span>
+                                <span class="right-card-add-span">сравнить</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="catalog-right-card right-card">
+                        <div class="right-card-top">
+                            <div class="slider-transfer">
+                                <div class="slider-transfer-item"><img src="img/big1.png" alt="" class="slider-transfer-img"></div>
+                            </div>
+                            <div class="right-card-new">Новинка</div>
+                            <div class="slider-choice">
+                                <div class="slider-choice-flex">
+                                    <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item slider-choice-item-plus">
+                                        <svg width="100%" height="100%" class="slider-choice-plus" id="Layer_1" fill="#a1a4ac" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 17.65 17.65">
+                                            <defs>
+                                                <style>.cls-1p{fill:none;}.cls-2p{clip-path:url(#clip-pathp);}</style>
+                                                <clipPath id="clip-pathp" transform="translate(5 5)">
+                                                    <path class="cls-1p" d="M7.65,3.42A.43.43,0,0,0,7.22,3H5.09a.43.43,0,0,1-.43-.43V.43A.43.43,0,0,0,4.23,0H3.42A.43.43,0,0,0,3,.43V2.56A.43.43,0,0,1,2.56,3H.43A.43.43,0,0,0,0,3.42v.81a.43.43,0,0,0,.43.43H2.56A.43.43,0,0,1,3,5.09V7.22a.43.43,0,0,0,.43.43h.81a.44.44,0,0,0,.43-.43V5.09a.43.43,0,0,1,.43-.43H7.22a.44.44,0,0,0,.43-.43Z"/>
+                                                </clipPath>
+                                            </defs>
+                                            <g class="cls-2p">
+                                                <rect width="17.65" height="17.65"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+
+                                    <div class="slider-choice-item-drop">
+                                        <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                        <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                        <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-card-down">
+                            <div class="right-card-title">Tarkett Infinite</div>
+                            <div class="right-card-class">Класс:<span class="right-card-class-span"> износоустойчивости: </span><span class="right-card-wear"> 32</span></div>
+                            <div class="right-card-line"></div>
+                            <div class="right-card-price"><span class="right-card-number">683.55 </span> грн/кв.м</div>
+                            <label class="right-card-field">
+                                <input type="checkbox" class="catalog-left-checkbox">
+                                <span class="right-card-item"></span>
+                                <span class="right-card-add">добавить в сравнение</span>
+                                <span class="right-card-add-span">сравнить</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="catalog-right-card right-card">
+                        <div class="right-card-top">
+                            <div class="slider-transfer">
+                                <div class="slider-transfer-item"><img src="img/big1.png" alt="" class="slider-transfer-img"></div>
+                            </div>
+                            <div class="right-card-new">Новинка</div>
+                            <div class="slider-choice">
+                                <div class="slider-choice-flex">
+                                    <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item slider-choice-item-plus">
+                                        <svg width="100%" height="100%" class="slider-choice-plus" id="Layer_1" fill="#a1a4ac" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 17.65 17.65">
+                                            <defs>
+                                                <style>.cls-1p{fill:none;}.cls-2p{clip-path:url(#clip-pathp);}</style>
+                                                <clipPath id="clip-pathp" transform="translate(5 5)">
+                                                    <path class="cls-1p" d="M7.65,3.42A.43.43,0,0,0,7.22,3H5.09a.43.43,0,0,1-.43-.43V.43A.43.43,0,0,0,4.23,0H3.42A.43.43,0,0,0,3,.43V2.56A.43.43,0,0,1,2.56,3H.43A.43.43,0,0,0,0,3.42v.81a.43.43,0,0,0,.43.43H2.56A.43.43,0,0,1,3,5.09V7.22a.43.43,0,0,0,.43.43h.81a.44.44,0,0,0,.43-.43V5.09a.43.43,0,0,1,.43-.43H7.22a.44.44,0,0,0,.43-.43Z"/>
+                                                </clipPath>
+                                            </defs>
+                                            <g class="cls-2p">
+                                                <rect width="17.65" height="17.65"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+
+                                    <div class="slider-choice-item-drop">
+                                        <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                        <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                        <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-card-down">
+                            <div class="right-card-title">Tarkett Infinite</div>
+                            <div class="right-card-class">Класс:<span class="right-card-class-span"> износоустойчивости: </span><span class="right-card-wear"> 32</span></div>
+                            <div class="right-card-line"></div>
+                            <div class="right-card-price"><span class="right-card-number">683.55 </span> грн/кв.м</div>
+                            <label class="right-card-field">
+                                <input type="checkbox" class="catalog-left-checkbox">
+                                <span class="right-card-item"></span>
+                                <span class="right-card-add">добавить в сравнение</span>
+                                <span class="right-card-add-span">сравнить</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="catalog-right-card right-card">
+                        <div class="right-card-top">
+                            <div class="slider-transfer">
+                                <div class="slider-transfer-item"><img src="img/big1.png" alt="" class="slider-transfer-img"></div>
+                            </div>
+                            <div class="right-card-new">Новинка</div>
+                            <div class="slider-choice">
+                                <div class="slider-choice-flex">
+                                    <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item slider-choice-item-plus">
+                                        <svg width="100%" height="100%" class="slider-choice-plus" id="Layer_1" fill="#a1a4ac" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 17.65 17.65">
+                                            <defs>
+                                                <style>.cls-1p{fill:none;}.cls-2p{clip-path:url(#clip-pathp);}</style>
+                                                <clipPath id="clip-pathp" transform="translate(5 5)">
+                                                    <path class="cls-1p" d="M7.65,3.42A.43.43,0,0,0,7.22,3H5.09a.43.43,0,0,1-.43-.43V.43A.43.43,0,0,0,4.23,0H3.42A.43.43,0,0,0,3,.43V2.56A.43.43,0,0,1,2.56,3H.43A.43.43,0,0,0,0,3.42v.81a.43.43,0,0,0,.43.43H2.56A.43.43,0,0,1,3,5.09V7.22a.43.43,0,0,0,.43.43h.81a.44.44,0,0,0,.43-.43V5.09a.43.43,0,0,1,.43-.43H7.22a.44.44,0,0,0,.43-.43Z"/>
+                                                </clipPath>
+                                            </defs>
+                                            <g class="cls-2p">
+                                                <rect width="17.65" height="17.65"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+
+                                    <div class="slider-choice-item-drop">
+                                        <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                        <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                        <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-card-down">
+                            <div class="right-card-title">Tarkett Infinite</div>
+                            <div class="right-card-class">Класс:<span class="right-card-class-span"> износоустойчивости: </span><span class="right-card-wear"> 32</span></div>
+                            <div class="right-card-line"></div>
+                            <div class="right-card-price"><span class="right-card-number">683.55 </span> грн/кв.м</div>
+                            <label class="right-card-field">
+                                <input type="checkbox" class="catalog-left-checkbox">
+                                <span class="right-card-item"></span>
+                                <span class="right-card-add">добавить в сравнение</span>
+                                <span class="right-card-add-span">сравнить</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="catalog-right-card right-card">
+                        <div class="right-card-top">
+                            <div class="slider-transfer">
+                                <div class="slider-transfer-item"><img src="img/big1.png" alt="" class="slider-transfer-img"></div>
+                            </div>
+                            <div class="right-card-new">Новинка</div>
+                            <div class="slider-choice">
+                                <div class="slider-choice-flex">
+                                    <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item slider-choice-item-plus">
+                                        <svg width="100%" height="100%" class="slider-choice-plus" id="Layer_1" fill="#a1a4ac" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 17.65 17.65">
+                                            <defs>
+                                                <style>.cls-1p{fill:none;}.cls-2p{clip-path:url(#clip-pathp);}</style>
+                                                <clipPath id="clip-pathp" transform="translate(5 5)">
+                                                    <path class="cls-1p" d="M7.65,3.42A.43.43,0,0,0,7.22,3H5.09a.43.43,0,0,1-.43-.43V.43A.43.43,0,0,0,4.23,0H3.42A.43.43,0,0,0,3,.43V2.56A.43.43,0,0,1,2.56,3H.43A.43.43,0,0,0,0,3.42v.81a.43.43,0,0,0,.43.43H2.56A.43.43,0,0,1,3,5.09V7.22a.43.43,0,0,0,.43.43h.81a.44.44,0,0,0,.43-.43V5.09a.43.43,0,0,1,.43-.43H7.22a.44.44,0,0,0,.43-.43Z"/>
+                                                </clipPath>
+                                            </defs>
+                                            <g class="cls-2p">
+                                                <rect width="17.65" height="17.65"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+
+                                    <div class="slider-choice-item-drop">
+                                        <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                        <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                        <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-card-down">
+                            <div class="right-card-title">Tarkett Infinite</div>
+                            <div class="right-card-class">Класс:<span class="right-card-class-span"> износоустойчивости: </span><span class="right-card-wear"> 32</span></div>
+                            <div class="right-card-line"></div>
+                            <div class="right-card-price"><span class="right-card-number">683.55 </span> грн/кв.м</div>
+                            <label class="right-card-field">
+                                <input type="checkbox" class="catalog-left-checkbox">
+                                <span class="right-card-item"></span>
+                                <span class="right-card-add">добавить в сравнение</span>
+                                <span class="right-card-add-span">сравнить</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="catalog-right-card right-card">
+                        <div class="right-card-top">
+                            <div class="slider-transfer">
+                                <div class="slider-transfer-item"><img src="img/big1.png" alt="" class="slider-transfer-img"></div>
+                            </div>
+                            <div class="right-card-new">Новинка</div>
+                            <div class="slider-choice">
+                                <div class="slider-choice-flex">
+                                    <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item slider-choice-item-plus">
+                                        <svg width="100%" height="100%" class="slider-choice-plus" id="Layer_1" fill="#a1a4ac" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 17.65 17.65">
+                                            <defs>
+                                                <style>.cls-1p{fill:none;}.cls-2p{clip-path:url(#clip-pathp);}</style>
+                                                <clipPath id="clip-pathp" transform="translate(5 5)">
+                                                    <path class="cls-1p" d="M7.65,3.42A.43.43,0,0,0,7.22,3H5.09a.43.43,0,0,1-.43-.43V.43A.43.43,0,0,0,4.23,0H3.42A.43.43,0,0,0,3,.43V2.56A.43.43,0,0,1,2.56,3H.43A.43.43,0,0,0,0,3.42v.81a.43.43,0,0,0,.43.43H2.56A.43.43,0,0,1,3,5.09V7.22a.43.43,0,0,0,.43.43h.81a.44.44,0,0,0,.43-.43V5.09a.43.43,0,0,1,.43-.43H7.22a.44.44,0,0,0,.43-.43Z"/>
+                                                </clipPath>
+                                            </defs>
+                                            <g class="cls-2p">
+                                                <rect width="17.65" height="17.65"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+
+                                    <div class="slider-choice-item-drop">
+                                        <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                        <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                        <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-card-down">
+                            <div class="right-card-title">Tarkett Infinite</div>
+                            <div class="right-card-class">Класс:<span class="right-card-class-span"> износоустойчивости: </span><span class="right-card-wear"> 32</span></div>
+                            <div class="right-card-line"></div>
+                            <div class="right-card-price"><span class="right-card-number">683.55 </span> грн/кв.м</div>
+                            <label class="right-card-field">
+                                <input type="checkbox" class="catalog-left-checkbox">
+                                <span class="right-card-item"></span>
+                                <span class="right-card-add">добавить в сравнение</span>
+                                <span class="right-card-add-span">сравнить</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="catalog-right-card right-card">
+                        <div class="right-card-top">
+                            <div class="slider-transfer">
+                                <div class="slider-transfer-item"><img src="img/big1.png" alt="" class="slider-transfer-img"></div>
+                            </div>
+                            <div class="right-card-new">Новинка</div>
+                            <div class="slider-choice">
+                                <div class="slider-choice-flex">
+                                    <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item slider-choice-item-plus">
+                                        <svg width="100%" height="100%" class="slider-choice-plus" id="Layer_1" fill="#a1a4ac" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 17.65 17.65">
+                                            <defs>
+                                                <style>.cls-1p{fill:none;}.cls-2p{clip-path:url(#clip-pathp);}</style>
+                                                <clipPath id="clip-pathp" transform="translate(5 5)">
+                                                    <path class="cls-1p" d="M7.65,3.42A.43.43,0,0,0,7.22,3H5.09a.43.43,0,0,1-.43-.43V.43A.43.43,0,0,0,4.23,0H3.42A.43.43,0,0,0,3,.43V2.56A.43.43,0,0,1,2.56,3H.43A.43.43,0,0,0,0,3.42v.81a.43.43,0,0,0,.43.43H2.56A.43.43,0,0,1,3,5.09V7.22a.43.43,0,0,0,.43.43h.81a.44.44,0,0,0,.43-.43V5.09a.43.43,0,0,1,.43-.43H7.22a.44.44,0,0,0,.43-.43Z"/>
+                                                </clipPath>
+                                            </defs>
+                                            <g class="cls-2p">
+                                                <rect width="17.65" height="17.65"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+
+                                    <div class="slider-choice-item-drop">
+                                        <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                        <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                        <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-card-down">
+                            <div class="right-card-title">Tarkett Infinite</div>
+                            <div class="right-card-class">Класс:<span class="right-card-class-span"> износоустойчивости: </span><span class="right-card-wear"> 32</span></div>
+                            <div class="right-card-line"></div>
+                            <div class="right-card-price"><span class="right-card-number">683.55 </span> грн/кв.м</div>
+                            <label class="right-card-field">
+                                <input type="checkbox" class="catalog-left-checkbox">
+                                <span class="right-card-item"></span>
+                                <span class="right-card-add">добавить в сравнение</span>
+                                <span class="right-card-add-span">сравнить</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="catalog-right-card right-card">
+                        <div class="right-card-top">
+                            <div class="slider-transfer">
+                                <div class="slider-transfer-item"><img src="img/big1.png" alt="" class="slider-transfer-img"></div>
+                            </div>
+                            <div class="right-card-new">Новинка</div>
+                            <div class="slider-choice">
+                                <div class="slider-choice-flex">
+                                    <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item slider-choice-item-plus">
+                                        <svg width="100%" height="100%" class="slider-choice-plus" id="Layer_1" fill="#a1a4ac" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 17.65 17.65">
+                                            <defs>
+                                                <style>.cls-1p{fill:none;}.cls-2p{clip-path:url(#clip-pathp);}</style>
+                                                <clipPath id="clip-pathp" transform="translate(5 5)">
+                                                    <path class="cls-1p" d="M7.65,3.42A.43.43,0,0,0,7.22,3H5.09a.43.43,0,0,1-.43-.43V.43A.43.43,0,0,0,4.23,0H3.42A.43.43,0,0,0,3,.43V2.56A.43.43,0,0,1,2.56,3H.43A.43.43,0,0,0,0,3.42v.81a.43.43,0,0,0,.43.43H2.56A.43.43,0,0,1,3,5.09V7.22a.43.43,0,0,0,.43.43h.81a.44.44,0,0,0,.43-.43V5.09a.43.43,0,0,1,.43-.43H7.22a.44.44,0,0,0,.43-.43Z"/>
+                                                </clipPath>
+                                            </defs>
+                                            <g class="cls-2p">
+                                                <rect width="17.65" height="17.65"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+
+                                    <div class="slider-choice-item-drop">
+                                        <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                        <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                        <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-card-down">
+                            <div class="right-card-title">Tarkett Infinite</div>
+                            <div class="right-card-class">Класс:<span class="right-card-class-span"> износоустойчивости: </span><span class="right-card-wear"> 32</span></div>
+                            <div class="right-card-line"></div>
+                            <div class="right-card-price"><span class="right-card-number">683.55 </span> грн/кв.м</div>
+                            <label class="right-card-field">
+                                <input type="checkbox" class="catalog-left-checkbox">
+                                <span class="right-card-item"></span>
+                                <span class="right-card-add">добавить в сравнение</span>
+                                <span class="right-card-add-span">сравнить</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="catalog-right-card right-card">
+                        <div class="right-card-top">
+                            <div class="slider-transfer">
+                                <div class="slider-transfer-item"><img src="img/big1.png" alt="" class="slider-transfer-img"></div>
+                            </div>
+                            <div class="right-card-new">Новинка</div>
+                            <div class="slider-choice">
+                                <div class="slider-choice-flex">
+                                    <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item slider-choice-item-plus">
+                                        <svg width="100%" height="100%" class="slider-choice-plus" id="Layer_1" fill="#a1a4ac" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 17.65 17.65">
+                                            <defs>
+                                                <style>.cls-1p{fill:none;}.cls-2p{clip-path:url(#clip-pathp);}</style>
+                                                <clipPath id="clip-pathp" transform="translate(5 5)">
+                                                    <path class="cls-1p" d="M7.65,3.42A.43.43,0,0,0,7.22,3H5.09a.43.43,0,0,1-.43-.43V.43A.43.43,0,0,0,4.23,0H3.42A.43.43,0,0,0,3,.43V2.56A.43.43,0,0,1,2.56,3H.43A.43.43,0,0,0,0,3.42v.81a.43.43,0,0,0,.43.43H2.56A.43.43,0,0,1,3,5.09V7.22a.43.43,0,0,0,.43.43h.81a.44.44,0,0,0,.43-.43V5.09a.43.43,0,0,1,.43-.43H7.22a.44.44,0,0,0,.43-.43Z"/>
+                                                </clipPath>
+                                            </defs>
+                                            <g class="cls-2p">
+                                                <rect width="17.65" height="17.65"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+
+                                    <div class="slider-choice-item-drop">
+                                        <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                        <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                        <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-card-down">
+                            <div class="right-card-title">Tarkett Infinite</div>
+                            <div class="right-card-class">Класс:<span class="right-card-class-span"> износоустойчивости: </span><span class="right-card-wear"> 32</span></div>
+                            <div class="right-card-line"></div>
+                            <div class="right-card-price"><span class="right-card-number">683.55 </span> грн/кв.м</div>
+                            <label class="right-card-field">
+                                <input type="checkbox" class="catalog-left-checkbox">
+                                <span class="right-card-item"></span>
+                                <span class="right-card-add">добавить в сравнение</span>
+                                <span class="right-card-add-span">сравнить</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="catalog-right-card right-card">
+                        <div class="right-card-top">
+                            <div class="slider-transfer">
+                                <div class="slider-transfer-item"><img src="img/big1.png" alt="" class="slider-transfer-img"></div>
+                            </div>
+                            <div class="right-card-new">Новинка</div>
+                            <div class="slider-choice">
+                                <div class="slider-choice-flex">
+                                    <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item slider-choice-item-plus">
+                                        <svg width="100%" height="100%" class="slider-choice-plus" id="Layer_1" fill="#a1a4ac" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 17.65 17.65">
+                                            <defs>
+                                                <style>.cls-1p{fill:none;}.cls-2p{clip-path:url(#clip-pathp);}</style>
+                                                <clipPath id="clip-pathp" transform="translate(5 5)">
+                                                    <path class="cls-1p" d="M7.65,3.42A.43.43,0,0,0,7.22,3H5.09a.43.43,0,0,1-.43-.43V.43A.43.43,0,0,0,4.23,0H3.42A.43.43,0,0,0,3,.43V2.56A.43.43,0,0,1,2.56,3H.43A.43.43,0,0,0,0,3.42v.81a.43.43,0,0,0,.43.43H2.56A.43.43,0,0,1,3,5.09V7.22a.43.43,0,0,0,.43.43h.81a.44.44,0,0,0,.43-.43V5.09a.43.43,0,0,1,.43-.43H7.22a.44.44,0,0,0,.43-.43Z"/>
+                                                </clipPath>
+                                            </defs>
+                                            <g class="cls-2p">
+                                                <rect width="17.65" height="17.65"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+
+                                    <div class="slider-choice-item-drop">
+                                        <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                        <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                        <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-card-down">
+                            <div class="right-card-title">Tarkett Infinite</div>
+                            <div class="right-card-class">Класс:<span class="right-card-class-span"> износоустойчивости: </span><span class="right-card-wear"> 32</span></div>
+                            <div class="right-card-line"></div>
+                            <div class="right-card-price"><span class="right-card-number">683.55 </span> грн/кв.м</div>
+                            <label class="right-card-field">
+                                <input type="checkbox" class="catalog-left-checkbox">
+                                <span class="right-card-item"></span>
+                                <span class="right-card-add">добавить в сравнение</span>
+                                <span class="right-card-add-span">сравнить</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="catalog-right-card right-card">
+                        <div class="right-card-top">
+                            <div class="slider-transfer">
+                                <div class="slider-transfer-item"><img src="img/big1.png" alt="" class="slider-transfer-img"></div>
+                            </div>
+                            <div class="right-card-new">Новинка</div>
+                            <div class="slider-choice">
+                                <div class="slider-choice-flex">
+                                    <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item slider-choice-item-plus">
+                                        <svg width="100%" height="100%" class="slider-choice-plus" id="Layer_1" fill="#a1a4ac" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 17.65 17.65">
+                                            <defs>
+                                                <style>.cls-1p{fill:none;}.cls-2p{clip-path:url(#clip-pathp);}</style>
+                                                <clipPath id="clip-pathp" transform="translate(5 5)">
+                                                    <path class="cls-1p" d="M7.65,3.42A.43.43,0,0,0,7.22,3H5.09a.43.43,0,0,1-.43-.43V.43A.43.43,0,0,0,4.23,0H3.42A.43.43,0,0,0,3,.43V2.56A.43.43,0,0,1,2.56,3H.43A.43.43,0,0,0,0,3.42v.81a.43.43,0,0,0,.43.43H2.56A.43.43,0,0,1,3,5.09V7.22a.43.43,0,0,0,.43.43h.81a.44.44,0,0,0,.43-.43V5.09a.43.43,0,0,1,.43-.43H7.22a.44.44,0,0,0,.43-.43Z"/>
+                                                </clipPath>
+                                            </defs>
+                                            <g class="cls-2p">
+                                                <rect width="17.65" height="17.65"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+
+                                    <div class="slider-choice-item-drop">
+                                        <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                        <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                        <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-card-down">
+                            <div class="right-card-title">Tarkett Infinite</div>
+                            <div class="right-card-class">Класс:<span class="right-card-class-span"> износоустойчивости: </span><span class="right-card-wear"> 32</span></div>
+                            <div class="right-card-line"></div>
+                            <div class="right-card-price"><span class="right-card-number">683.55 </span> грн/кв.м</div>
+                            <label class="right-card-field">
+                                <input type="checkbox" class="catalog-left-checkbox">
+                                <span class="right-card-item"></span>
+                                <span class="right-card-add">добавить в сравнение</span>
+                                <span class="right-card-add-span">сравнить</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="catalog-right-card right-card">
+                        <div class="right-card-top">
+                            <div class="slider-transfer">
+                                <div class="slider-transfer-item"><img src="img/big1.png" alt="" class="slider-transfer-img"></div>
+                            </div>
+                            <div class="right-card-new">Новинка</div>
+                            <div class="slider-choice">
+                                <div class="slider-choice-flex">
+                                    <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item slider-choice-item-plus">
+                                        <svg width="100%" height="100%" class="slider-choice-plus" id="Layer_1" fill="#a1a4ac" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 17.65 17.65">
+                                            <defs>
+                                                <style>.cls-1p{fill:none;}.cls-2p{clip-path:url(#clip-pathp);}</style>
+                                                <clipPath id="clip-pathp" transform="translate(5 5)">
+                                                    <path class="cls-1p" d="M7.65,3.42A.43.43,0,0,0,7.22,3H5.09a.43.43,0,0,1-.43-.43V.43A.43.43,0,0,0,4.23,0H3.42A.43.43,0,0,0,3,.43V2.56A.43.43,0,0,1,2.56,3H.43A.43.43,0,0,0,0,3.42v.81a.43.43,0,0,0,.43.43H2.56A.43.43,0,0,1,3,5.09V7.22a.43.43,0,0,0,.43.43h.81a.44.44,0,0,0,.43-.43V5.09a.43.43,0,0,1,.43-.43H7.22a.44.44,0,0,0,.43-.43Z"/>
+                                                </clipPath>
+                                            </defs>
+                                            <g class="cls-2p">
+                                                <rect width="17.65" height="17.65"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+
+                                    <div class="slider-choice-item-drop">
+                                        <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                        <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                        <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-card-down">
+                            <div class="right-card-title">Tarkett Infinite</div>
+                            <div class="right-card-class">Класс:<span class="right-card-class-span"> износоустойчивости: </span><span class="right-card-wear"> 32</span></div>
+                            <div class="right-card-line"></div>
+                            <div class="right-card-price"><span class="right-card-number">683.55 </span> грн/кв.м</div>
+                            <label class="right-card-field">
+                                <input type="checkbox" class="catalog-left-checkbox">
+                                <span class="right-card-item"></span>
+                                <span class="right-card-add">добавить в сравнение</span>
+                                <span class="right-card-add-span">сравнить</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="catalog-right-card right-card">
+                        <div class="right-card-top">
+                            <div class="slider-transfer">
+                                <div class="slider-transfer-item"><img src="img/big1.png" alt="" class="slider-transfer-img"></div>
+                            </div>
+                            <div class="right-card-new">Новинка</div>
+                            <div class="slider-choice">
+                                <div class="slider-choice-flex">
+                                    <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                    <div class="slider-choice-item slider-choice-item-plus">
+                                        <svg width="100%" height="100%" class="slider-choice-plus" id="Layer_1" fill="#a1a4ac" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 17.65 17.65">
+                                            <defs>
+                                                <style>.cls-1p{fill:none;}.cls-2p{clip-path:url(#clip-pathp);}</style>
+                                                <clipPath id="clip-pathp" transform="translate(5 5)">
+                                                    <path class="cls-1p" d="M7.65,3.42A.43.43,0,0,0,7.22,3H5.09a.43.43,0,0,1-.43-.43V.43A.43.43,0,0,0,4.23,0H3.42A.43.43,0,0,0,3,.43V2.56A.43.43,0,0,1,2.56,3H.43A.43.43,0,0,0,0,3.42v.81a.43.43,0,0,0,.43.43H2.56A.43.43,0,0,1,3,5.09V7.22a.43.43,0,0,0,.43.43h.81a.44.44,0,0,0,.43-.43V5.09a.43.43,0,0,1,.43-.43H7.22a.44.44,0,0,0,.43-.43Z"/>
+                                                </clipPath>
+                                            </defs>
+                                            <g class="cls-2p">
+                                                <rect width="17.65" height="17.65"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+
+                                    <div class="slider-choice-item-drop">
+                                        <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                        <div class="slider-choice-item"><img src="img/mini2.png" alt="" class="slider-choice-img" data-src="img/big1.png"></div>
+                                        <div class="slider-choice-item"><img src="img/mini1.png" alt="" class="slider-choice-img" data-src="img/big2.png"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-card-down">
+                            <div class="right-card-title">Tarkett Infinite</div>
+                            <div class="right-card-class">Класс:<span class="right-card-class-span"> износоустойчивости: </span><span class="right-card-wear"> 32</span></div>
+                            <div class="right-card-line"></div>
+                            <div class="right-card-price"><span class="right-card-number">683.55 </span> грн/кв.м</div>
+                            <label class="right-card-field">
+                                <input type="checkbox" class="catalog-left-checkbox">
+                                <span class="right-card-item"></span>
+                                <span class="right-card-add">добавить в сравнение</span>
+                                <span class="right-card-add-span">сравнить</span>
                             </label>
                         </div>
                     </div>
                 </div>
                 <div class="catalog-right-next">
-                    <a href="#" class="catalog-right-tab">1</a>
+                    <a href="#" class="catalog-right-tab active">1</a>
                     <a href="#" class="catalog-right-tab">2</a>
                     <a href="#" class="catalog-right-tab">3</a>
                     <a href="#" class="catalog-right-tab">4</a>
