@@ -56,7 +56,11 @@ gulp.task('libs-js', function(){
       'app/libs/select2-4.0.6-rc.1/dist/js/select2.min.js',
       'app/libs/masonry-layout/dist/masonry.pkgd.min.js',
       'app/libs/fancybox/dist/jquery.fancybox.min.js',
-      'app/libs/jquery.maskedinput.min.js'
+      'app/libs/jquery.maskedinput.min.js',
+      'app/libs/TweenMax.min.js',
+      'app/libs/ScrollMagic.min.js',
+      'app/libs/animation.gsap.js',
+      'app/libs/addIndicators.min.js'
   ])
     .pipe(concat('libs.min.js'))
     .pipe(uglify())

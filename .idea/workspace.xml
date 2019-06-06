@@ -6,19 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9f07690c-f387-45a8-9f5c-374109541a6f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/catalog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/pages/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/pages/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/pages/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/delivery.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/delivery.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/payment.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/payment.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/libs.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/libs.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/_media.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/main.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -33,25 +24,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/common.js">
+        <entry file="file://$USER_HOME$/single-ps_product.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="363" column="3" selection-start-line="363" selection-start-column="3" selection-end-line="363" selection-end-column="3" />
+            <state relative-caret-position="374">
+              <caret line="22" column="81" selection-start-line="22" selection-start-column="81" selection-end-line="22" selection-end-column="81" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/components/pages/view.html">
+        <entry file="file://$USER_HOME$/tpl-page-compare.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="788" column="110" selection-start-line="788" selection-start-column="110" selection-end-line="788" selection-end-column="110" />
-              <folding>
-                <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="850">
+              <caret line="50" column="99" selection-start-line="50" selection-start-column="99" selection-end-line="50" selection-end-column="99" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/tpl-page-about.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="124" selection-start-line="27" selection-start-column="124" selection-end-line="27" selection-end-column="124" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/common.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="457">
+              <caret line="383" column="35" lean-forward="true" selection-start-line="383" selection-start-column="35" selection-end-line="383" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/single-portfolio.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="50" column="56" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/taxonomy-portfolio_cat.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="47" column="177" selection-start-line="47" selection-start-column="177" selection-end-line="47" selection-end-column="177" />
             </state>
           </provider>
         </entry>
@@ -59,17 +80,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-170">
-              <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+            <state relative-caret-position="1054">
+              <caret line="62" column="37" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dist/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="3574" column="43" selection-start-line="3574" selection-start-column="43" selection-end-line="3574" selection-end-column="43" />
+            <state relative-caret-position="61013">
+              <caret line="3589" column="54" selection-start-line="3589" selection-start-column="54" selection-end-line="3589" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -77,35 +98,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/components/pages/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="2576" column="15" selection-start-line="2576" selection-start-column="15" selection-end-line="2576" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../savyonit/app/contacts.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7344">
-              <caret line="432" column="4" selection-start-line="432" selection-start-column="4" selection-end-line="432" selection-end-column="111" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/map.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+            <state relative-caret-position="646">
+              <caret line="276" column="80" selection-start-line="276" selection-start-column="80" selection-end-line="276" selection-end-column="80" />
+              <folding>
+                <element signature="n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,7 +116,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/sass/_media.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
+            <state relative-caret-position="2244">
               <caret line="132" column="53" selection-start-line="132" selection-start-column="53" selection-end-line="134" selection-end-column="23" />
             </state>
           </provider>
@@ -123,16 +126,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>slider-choice-item-plus</find>
-      <find>@medi</find>
-      <find>catalog-right-selec</find>
-      <find>height: 1.85vw</find>
-      <find>Lat</find>
-      <find>.catalog</find>
-      <find>.view</find>
-      <find>-btn</find>
-      <find>mouse</find>
-      <find>преим</find>
       <find>view-right-btn btn</find>
       <find>view-right-btn order-popup-btns-btn</find>
       <find>.header</find>
@@ -151,6 +144,18 @@
       <find>.about</find>
       <find>.order-popup-title, .thank-popup-title</find>
       <find>order-popup-btns-input</find>
+      <find>home-slider-colum</find>
+      <find>gsapFade</find>
+      <find>home-third-colum</find>
+      <find>home-third-item</find>
+      <find>catalog-right-center</find>
+      <find>catalog-right-card</find>
+      <find>view</find>
+      <find>compare-right-slide</find>
+      <find>about-item</find>
+      <find>.header-list:hover .header-list-menu</find>
+      <find>portfolio-item</find>
+      <find>work-left-item</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -163,7 +168,6 @@
         <option value="$PROJECT_DIR$/app/img/payment.svg" />
         <option value="$PROJECT_DIR$/app/components/header.html" />
         <option value="$PROJECT_DIR$/app/img/plus_white.svg" />
-        <option value="$PROJECT_DIR$/app/components/pages/home.html" />
         <option value="$PROJECT_DIR$/app/components/pages/catalog.html" />
         <option value="$PROJECT_DIR$/app/components/pages/about.html" />
         <option value="$PROJECT_DIR$/app/components/pages/compare.html" />
@@ -173,11 +177,21 @@
         <option value="$PROJECT_DIR$/app/js/map.js" />
         <option value="$PROJECT_DIR$/app/components/pages/index.html" />
         <option value="$PROJECT_DIR$/app/sass/main.sass" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/app/components/pages/view.html" />
-        <option value="$PROJECT_DIR$/app/js/common.js" />
         <option value="$PROJECT_DIR$/app/sass/_media.sass" />
         <option value="$PROJECT_DIR$/dist/css/main.css" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/app/js/common.js" />
+        <option value="$PROJECT_DIR$/app/components/pages/home.html" />
+        <option value="$USER_HOME$/tpl-page-main.php" />
+        <option value="$USER_HOME$/content-ps_product.php" />
+        <option value="$USER_HOME$/single-ps_product.php" />
+        <option value="$USER_HOME$/tpl-page-compare.php" />
+        <option value="$USER_HOME$/tpl-page-about.php" />
+        <option value="$USER_HOME$/main.css" />
+        <option value="$USER_HOME$/common.js" />
+        <option value="$USER_HOME$/taxonomy-portfolio_cat.php" />
+        <option value="$USER_HOME$/single-portfolio.php" />
       </list>
     </option>
   </component>
@@ -193,6 +207,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,22 +239,15 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="prime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prime" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../savyonit" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Future\Documents\GitHub\prime\node_modules\prettier" />
@@ -270,18 +278,19 @@
       <workItem from="1554185327598" duration="10875000" />
       <workItem from="1554197925627" duration="18605000" />
       <workItem from="1554273227646" duration="30834000" />
-      <workItem from="1554358384115" duration="2319000" />
+      <workItem from="1554358384115" duration="2996000" />
+      <workItem from="1554387628638" duration="2373000" />
+      <workItem from="1554444861155" duration="2149000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69050000" />
+    <option name="totallyTimeSpent" value="74249000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -295,8 +304,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50263435" side_tool="true" visible="true" weight="0.26868907" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49736565" visible="true" weight="0.26868907" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5036881" side_tool="true" visible="true" weight="0.26868907" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4963119" visible="true" weight="0.26868907" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -306,13 +315,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../photo-to/app/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="145" column="4" selection-start-line="145" selection-start-column="4" selection-end-line="151" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/components/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2397">
@@ -420,10 +422,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/components/pages/index.html" />
-    <entry file="file://$PROJECT_DIR$/app/components/pages/home.html">
+    <entry file="file://$PROJECT_DIR$/app/components/pages/view.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        <state relative-caret-position="11645">
+          <caret line="788" column="110" selection-start-line="788" selection-start-column="110" selection-end-line="788" selection-end-column="110" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43792">
+          <caret line="2576" column="15" selection-start-line="2576" selection-start-column="15" selection-end-line="2576" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -441,51 +456,138 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
+    <entry file="file://$PROJECT_DIR$/../photo-to/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="2576" column="15" selection-start-line="2576" selection-start-column="15" selection-end-line="2576" selection-end-column="15" />
+        <state relative-caret-position="306">
+          <caret line="57" column="6" lean-forward="true" selection-start-line="57" selection-start-column="6" selection-end-line="60" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/pages/view.html">
+    <entry file="file://$PROJECT_DIR$/../photo-to/app/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="788" column="110" selection-start-line="788" selection-start-column="110" selection-end-line="788" selection-end-column="110" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="375">
+          <caret line="352" column="5" lean-forward="true" selection-start-line="261" selection-start-column="4" selection-end-line="352" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/tpl-page-main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="115" column="51" lean-forward="true" selection-start-line="115" selection-start-column="51" selection-end-line="115" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/content-ps_product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="363" column="3" selection-start-line="363" selection-start-column="3" selection-end-line="363" selection-end-column="3" />
+        <state relative-caret-position="6188">
+          <caret line="364" column="4" selection-start-line="364" selection-start-column="4" selection-end-line="457" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_media.sass">
+    <entry file="file://$USER_HOME$/taxonomy-ps_product_cat.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="132" column="53" selection-start-line="132" selection-start-column="53" selection-end-line="134" selection-end-column="23" />
+        <state relative-caret-position="561">
+          <caret line="33" column="110" selection-start-line="33" selection-start-column="106" selection-end-line="33" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/single-ps_product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="81" selection-start-line="22" selection-start-column="81" selection-end-line="22" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/tpl-page-compare.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="99" selection-start-line="50" selection-start-column="99" selection-end-line="50" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/tpl-page-about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="124" selection-start-line="27" selection-start-column="124" selection-end-line="27" selection-end-column="124" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+        <state relative-caret-position="1054">
+          <caret line="62" column="37" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="3574" column="43" selection-start-line="3574" selection-start-column="43" selection-end-line="3574" selection-end-column="43" />
+        <state relative-caret-position="61013">
+          <caret line="3589" column="54" selection-start-line="3589" selection-start-column="54" selection-end-line="3589" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/pages/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="276" column="80" selection-start-line="276" selection-start-column="80" selection-end-line="276" selection-end-column="80" />
+          <folding>
+            <element signature="n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_media.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2244">
+          <caret line="132" column="53" selection-start-line="132" selection-start-column="53" selection-end-line="134" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="256" column="46" lean-forward="true" selection-start-line="256" selection-start-column="46" selection-end-line="256" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="383" column="35" lean-forward="true" selection-start-line="383" selection-start-column="35" selection-end-line="383" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/taxonomy-portfolio_cat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="47" column="177" selection-start-line="47" selection-start-column="177" selection-end-line="47" selection-end-column="177" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/single-portfolio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="50" column="56" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
         </state>
       </provider>
     </entry>

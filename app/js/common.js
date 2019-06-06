@@ -361,6 +361,101 @@ $(document).ready(function () {
     //phone mask (page view)
 
     $(".order-popup-btns-input").mask("+38 (999) 99 99 999",{placeholder:"+38 (---) -- -- ---"});
+
+    //animation
+
+    function gsapTop() {
+        var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onEnter"}});
+
+        $('.gsapTop').each(function() {
+            var animationDelay = $(this).data("delay") || 1;
+            var animationDuration = $(this).data("duration") || 0.5;
+            var position = $(this).height();
+            var tween = TweenMax.fromTo(this, animationDuration,
+                {y: +position},
+                {y: 0, ease: Power4.easeOut, delay: animationDelay, force3D:true}
+            );
+            var trigg = this;
+            new ScrollMagic.Scene({triggerElement: trigg})
+                .setTween(tween)
+                .addTo(controller);
+        })
+    }
+    function gsapFade() {
+        var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onCenter"}});
+
+        $('.gsapFade').each(function() {
+            var animationDelay = $(this).data("delay") || 1;
+            var animationDuration = $(this).data("duration") || 4;
+            var tween = TweenMax.fromTo(this, animationDuration,
+                {opacity: 0},
+                {opacity: 1, ease: Power4.easeOut, delay: animationDelay}
+            );
+            var trigg = this;
+            new ScrollMagic.Scene({triggerElement: trigg})
+                .setTween(tween)
+                .addTo(controller);
+        })
+    }
+    function gsapFadeTop() {
+        var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onCenter"}});
+
+        $('.gsapFadeTop').each(function() {
+            var animationDelay = $(this).data("delay") || 0.5;
+            var animationDuration = $(this).data("duration") || 1.5;
+            var position = $(this).data("height") || $(this).height();
+            var tween = TweenMax.fromTo(this, animationDuration,
+                {opacity: 0, y: position},
+                {opacity: 1, y: 0, ease: Power4.easeOut, delay: animationDelay, force3D:true}
+            );
+            var trigg = this;
+            new ScrollMagic.Scene({triggerElement: trigg})
+                .setTween(tween)
+                .addTo(controller);
+        })
+    }
+    function gsapFadeTop2() {
+        var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onEnter"}});
+
+        $('.gsapFadeTop2').each(function() {
+            var animationDelay = $(this).data("delay") || 0.5;
+            var animationDuration = $(this).data("duration") || 1;
+            var position = $(this).data("height") || $(this).height();
+            var tween = TweenMax.fromTo(this, animationDuration,
+                {opacity: 0, y: position},
+                {opacity: 1, y: 0, ease: Power4.easeOut, delay: animationDelay, force3D:true}
+            );
+            var trigg = this;
+            new ScrollMagic.Scene({triggerElement: trigg})
+                .setTween(tween)
+                .addTo(controller);
+        })
+    }
+    function gsapCard() {
+        var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onEnter"}});
+
+        $('.gsapCard').each(function() {
+            var animationDelay = $(this).data("delay") || 0.5;
+            var animationDuration = $(this).data("duration") || 1;
+            var position = $(this).data("height") || $(this).height();
+            var tween = TweenMax.fromTo(this, animationDuration,
+                {opacity: 0, y: position,  width: '80%'},
+                {opacity: 1, y: 0, width: "100%", ease: Power4.easeOut, delay: animationDelay, force3D:true}
+            );
+            var trigg = this;
+            new ScrollMagic.Scene({triggerElement: trigg})
+                .setTween(tween)
+                .addTo(controller);
+        })
+    }
+
+    if ($(window).width() > 1023) {
+        gsapTop();
+        gsapFade();
+        gsapFadeTop();
+        gsapCard();
+        gsapFadeTop2()
+    }
 });
 function checkFlex(){
     var popupHeight = $('.order-popup-main').outerHeight();
